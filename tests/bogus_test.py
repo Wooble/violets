@@ -1,3 +1,6 @@
 import violets
 
-assert 1 == 1
+
+def test_nothing_in_particular():
+    assert 1 == 1
+
