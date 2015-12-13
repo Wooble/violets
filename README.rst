@@ -1,8 +1,6 @@
 violets
 -------
 
-A roguelike game engine
-
 .. image:: https://travis-ci.org/Wooble/violets.svg?branch=master
     :target: https://travis-ci.org/Wooble/violets
 
@@ -14,3 +12,8 @@ A roguelike game engine
 .. image:: https://readthedocs.org/projects/violets/badge/?version=latest
     :target: http://violets.readthedocs.org/en/latest/?badge=latest
     :alt: Documentation Status
+
+
+A roguelike game engine.
+
+There's really nothing useful here yet. Please move along.
