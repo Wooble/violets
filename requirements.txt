@@ -1,2 +1,5 @@
 pytest-cov
 coveralls
+flake8
+flake8-import-order
+check-manifest

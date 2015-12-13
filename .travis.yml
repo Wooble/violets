@@ -11,7 +11,13 @@ install:
   - pip install .
   - pip install -r requirements.txt
 
+before_script:
+  - "check-manifest"
+  - "flake8 violets"
 
 script: py.test --cov-append --cov-report= --cov=violets tests/
 
 after_success: coveralls
+
+notifications:
+  irc: "chat.freenode.net#violets"
